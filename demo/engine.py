@@ -81,7 +81,8 @@ class OCR_Chu_Nom_Engine:
                 thickness = 4
             
             for j in range(2 * thickness):
-                draw.rectangle([left + j, top + j, right - j, bottom - j], outline = rect_color)
+                if (left + j <= right - j) and (top + j <= bottom -j):
+                    draw.rectangle([left + j, top + j, right - j, bottom - j], outline = rect_color)
 
         del draw
         return img
