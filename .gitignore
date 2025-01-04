@@ -1,8 +1,8 @@
-__pydata__/
-__pycache__/
-.ipynb_checkpoints/
-data_real/
-cropped/
-crop_letter/
-*.png
-*.jpg
+demo/image
+demo/image - Copy
+demo/image - Copy (2)
+demo/result
+demo/Bach_van_thi_tap
+demo/BVTT
+demo/Cungam
+demo/model
